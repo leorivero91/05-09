@@ -15,10 +15,11 @@
 //ejercicio 3
 let readlineSync = require('readline-sync');
 
-function calcularArea (a,b){
- calculo= a*b;
+function calcularArea (b,a){
+ calculo= b*a;
  return calculo
 };
+
 let base = readlineSync.question("Ingrese la base:");
 let altura = readlineSync.question("Ingrese la altura:");
 let area= calcularArea(base,altura);
